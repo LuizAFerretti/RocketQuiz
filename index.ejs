@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="pt">
+    <head>
+        <title>Rocket.Q Perguntas e Respostas</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE-edge">
+
+        <!---css--->
+        <link rel="shortcut icon" href="/imagens/logo.svg ">
+        <link href="/styles/css/global.css" rel="stylesheet">
+        <link href="/styles/css/home.css" rel="stylesheet">
+    
+
+        <!---Fontes--->
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&display=swap" rel="stylesheet">
+
+    </head>
+    <body>
+        <div id = "home" class="content">
+            <header>   
+                <a href="/">        
+                <img src="/imagens/logo.svg" alt="Rocket.Q">
+                </a>
+            </header>
+
+            
+            <div id="bg"></div>
+            <div class="ball"></div>
+            
+              
+
+            </div>
+            
+    
+            <main>
+                <div class="container">
+                    <!----Vai renderizar a parte correta de acordo com a url-->
+                    <%- include(`parts/${page}`) %> 
+                   
+               
+                   
+
+                </div>
+          </main>
+        </div>
+   </body>
+</html>
